@@ -1,0 +1,121 @@
+
+Packages in Scope
+Name                    Path 
+@repo/eslint-config     packages/eslint-config
+@repo/typescript-config packages/typescript-config
+@repo/ui                packages/ui
+docs                    apps/docs
+web                     apps/web
+
+Global Hash Inputs
+  Global Files                          = 0
+  External Dependencies Hash            = 3881a46eac9ad5b5
+  Global Cache Key                      = I can’t see ya, but I know you’re here
+  Global Env Vars                       = 
+  Global Env Vars Values                = 
+  Inferred Global Env Vars Values       = 
+  Global Passed Through Env Vars        = 
+  Global Passed Through Env Vars Values = 
+  Engines Values                        = node=>=18
+
+Tasks to Run
+@repo/eslint-config#build
+  Task                           = build
+  Package                        = @repo/eslint-config
+  Hash                           = bd86fd3eef5c18b9
+  Cached (Local)                 = false
+  Cached (Remote)                = false
+  Directory                      = packages/eslint-config
+  Command                        = <NONEXISTENT>
+  Outputs                        = .next/**
+  Log File                       = packages/eslint-config/.turbo/turbo-build.log
+  Dependencies                   = 
+  Dependents                     = @repo/ui#build, docs#build, web#build
+  Inputs Files Considered        = 5
+  Env Vars                       = 
+  Env Vars Values                = 
+  Inferred Env Vars Values       = 
+  Passed Through Env Vars        = 
+  Passed Through Env Vars Values = 
+  Resolved Task Definition       = {"outputs":["!.next/cache/**",".next/**"],"cache":true,"dependsOn":["^build"],"inputs":["$TURBO_DEFAULT$",".env*"],"outputLogs":"full","persistent":false,"env":[],"passThroughEnv":null,"interactive":false}
+  Framework                      = 
+@repo/typescript-config#build
+  Task                           = build
+  Package                        = @repo/typescript-config
+  Hash                           = 53514a8599effe0f
+  Cached (Local)                 = false
+  Cached (Remote)                = false
+  Directory                      = packages/typescript-config
+  Command                        = <NONEXISTENT>
+  Outputs                        = .next/**
+  Log File                       = packages/typescript-config/.turbo/turbo-build.log
+  Dependencies                   = 
+  Dependents                     = @repo/ui#build, docs#build, web#build
+  Inputs Files Considered        = 4
+  Env Vars                       = 
+  Env Vars Values                = 
+  Inferred Env Vars Values       = 
+  Passed Through Env Vars        = 
+  Passed Through Env Vars Values = 
+  Resolved Task Definition       = {"outputs":["!.next/cache/**",".next/**"],"cache":true,"dependsOn":["^build"],"inputs":["$TURBO_DEFAULT$",".env*"],"outputLogs":"full","persistent":false,"env":[],"passThroughEnv":null,"interactive":false}
+  Framework                      = 
+@repo/ui#build
+  Task                           = build
+  Package                        = @repo/ui
+  Hash                           = cc1ee071f2e74548
+  Cached (Local)                 = false
+  Cached (Remote)                = false
+  Directory                      = packages/ui
+  Command                        = <NONEXISTENT>
+  Outputs                        = .next/**
+  Log File                       = packages/ui/.turbo/turbo-build.log
+  Dependencies                   = @repo/eslint-config#build, @repo/typescript-config#build
+  Dependents                     = docs#build, web#build
+  Inputs Files Considered        = 9
+  Env Vars                       = 
+  Env Vars Values                = 
+  Inferred Env Vars Values       = 
+  Passed Through Env Vars        = 
+  Passed Through Env Vars Values = 
+  Resolved Task Definition       = {"outputs":["!.next/cache/**",".next/**"],"cache":true,"dependsOn":["^build"],"inputs":["$TURBO_DEFAULT$",".env*"],"outputLogs":"full","persistent":false,"env":[],"passThroughEnv":null,"interactive":false}
+  Framework                      = 
+docs#build
+  Task                           = build
+  Package                        = docs
+  Hash                           = 7d1ec6831e22b150
+  Cached (Local)                 = false
+  Cached (Remote)                = false
+  Directory                      = apps/docs
+  Command                        = next build
+  Outputs                        = .next/**
+  Log File                       = apps/docs/.turbo/turbo-build.log
+  Dependencies                   = @repo/eslint-config#build, @repo/typescript-config#build, @repo/ui#build
+  Dependents                     = 
+  Inputs Files Considered        = 18
+  Env Vars                       = 
+  Env Vars Values                = 
+  Inferred Env Vars Values       = 
+  Passed Through Env Vars        = 
+  Passed Through Env Vars Values = 
+  Resolved Task Definition       = {"outputs":["!.next/cache/**",".next/**"],"cache":true,"dependsOn":["^build"],"inputs":["$TURBO_DEFAULT$",".env*"],"outputLogs":"full","persistent":false,"env":[],"passThroughEnv":null,"interactive":false}
+  Framework                      = nextjs
+web#build
+  Task                           = build
+  Package                        = web
+  Hash                           = 4a4b16ca77ba097e
+  Cached (Local)                 = false
+  Cached (Remote)                = false
+  Directory                      = apps/web
+  Command                        = next build
+  Outputs                        = .next/**
+  Log File                       = apps/web/.turbo/turbo-build.log
+  Dependencies                   = @repo/eslint-config#build, @repo/typescript-config#build, @repo/ui#build
+  Dependents                     = 
+  Inputs Files Considered        = 18
+  Env Vars                       = 
+  Env Vars Values                = 
+  Inferred Env Vars Values       = 
+  Passed Through Env Vars        = 
+  Passed Through Env Vars Values = 
+  Resolved Task Definition       = {"outputs":["!.next/cache/**",".next/**"],"cache":true,"dependsOn":["^build"],"inputs":["$TURBO_DEFAULT$",".env*"],"outputLogs":"full","persistent":false,"env":[],"passThroughEnv":null,"interactive":false}
+  Framework                      = nextjs

@@ -1,0 +1,72 @@
+• Packages in scope: @repo/eslint-config, @repo/typescript-config, @repo/ui, docs, web
+• Running build in 5 packages
+• Remote caching disabled
+web:build: cache hit, replaying logs 4a4b16ca77ba097e
+docs:build: cache hit, replaying logs 7d1ec6831e22b150
+web:build: 
+web:build: 
+web:build: > web@0.1.0 build /Users/admin/Desktop/mac_dev/learning/turbo-learning/apps/web
+web:build: > next build
+web:build: 
+web:build:   [1m[38;2;173;127;168m▲ Next.js 14.2.6[39m[22m
+web:build: 
+web:build:  [37m[1m [22m[39m Creating an optimized production build ...
+web:build:  [32m[1m✓[22m[39m Compiled successfully
+docs:build: 
+docs:build: 
+docs:build: > docs@0.1.0 build /Users/admin/Desktop/mac_dev/learning/turbo-learning/apps/docs
+docs:build: > next build
+docs:build: 
+docs:build:   [1m[38;2;173;127;168m▲ Next.js 14.2.6[39m[22m
+docs:build: 
+docs:build:  [37m[1m [22m[39m Creating an optimized production build ...
+docs:build:  [32m[1m✓[22m[39m Compiled successfully
+web:build: [?25l [37m[1m [22m[39m Linting and checking validity of types  [36m.[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m..[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m...[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m.[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m..[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m...[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m.[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m..[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m...[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m.[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m..[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m...[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m.[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m..[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m...[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m.[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m..[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m...[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m.[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m..[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m...[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m.[39m[2K[1G[?25h [37m[1m [22m[39m Linting and checking validity of types    
+web:build:  [32m[1m✓[22m[39m Linting and checking validity of types 
+web:build: [?25l [37m[1m [22m[39m Collecting page data  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting page data  [36m..[39m[2K[1G[?25h [37m[1m [22m[39m Collecting page data    
+web:build:  [32m[1m✓[22m[39m Collecting page data 
+web:build: [?25l [37m[1m [22m[39m Generating static pages (0/5)  [36m[    ][39m[2K[1G [37m[1m [22m[39m Generating static pages (2/5)  [36m[=   ][39m[2K[1G[?25h [32m[1m✓[22m[39m Generating static pages (5/5)
+web:build: [?25l [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[?25l [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G[?25h [37m[1m [22m[39m Collecting build traces    
+web:build:  [32m[1m✓[22m[39m Collecting build traces 
+web:build: [2K[1G[?25h [37m[1m [22m[39m Finalizing page optimization    
+web:build:  [32m[1m✓[22m[39m Finalizing page optimization 
+web:build: 
+web:build: [4mRoute (app)[24m                              [4mSize[24m     [4mFirst Load JS[24m
+web:build: ┌ ○ /                                    5.53 kB        [37m[1m92.5 kB[22m[39m
+web:build: └ ○ /_not-found                          872 B          [37m[1m87.9 kB[22m[39m
+web:build: + First Load JS shared by all            [37m[1m87 kB[22m[39m
+web:build:   ├ chunks/649-4444fc6a5e0e2b7b.js       31.5 kB
+web:build:   ├ chunks/caf67b24-4f856223a3d37246.js  53.6 kB
+web:build:   └ other shared chunks (total)          1.86 kB
+web:build: 
+web:build: 
+web:build: ○  (Static)  prerendered as static content
+docs:build: [?25l [37m[1m [22m[39m Linting and checking validity of types  [36m.[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m..[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m...[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m.[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m..[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m...[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m.[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m..[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m...[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m.[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m..[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m...[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m.[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m..[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m...[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m.[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m..[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m...[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m.[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m..[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m...[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m.[39m[2K[1G[?25h [37m[1m [22m[39m Linting and checking validity of types    
+docs:build:  [32m[1m✓[22m[39m Linting and checking validity of types 
+docs:build: [?25l [37m[1m [22m[39m Collecting page data  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting page data  [36m..[39m[2K[1G[?25h [37m[1m [22m[39m Collecting page data    
+docs:build:  [32m[1m✓[22m[39m Collecting page data 
+docs:build: [?25l [37m[1m [22m[39m Generating static pages (0/5)  [36m[    ][39m[2K[1G [37m[1m [22m[39m Generating static pages (0/5)  [36m[=   ][39m[2K[1G[?25h [32m[1m✓[22m[39m Generating static pages (5/5)
+web:build: 
+web:build: [?25h
+docs:build: [?25l [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[?25l [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G[?25h [37m[1m [22m[39m Collecting build traces    
+docs:build:  [32m[1m✓[22m[39m Collecting build traces 
+docs:build: [2K[1G[?25h [37m[1m [22m[39m Finalizing page optimization    
+docs:build:  [32m[1m✓[22m[39m Finalizing page optimization 
+docs:build: 
+docs:build: [4mRoute (app)[24m                              [4mSize[24m     [4mFirst Load JS[24m
+docs:build: ┌ ○ /                                    5.53 kB        [37m[1m92.5 kB[22m[39m
+docs:build: └ ○ /_not-found                          872 B          [37m[1m87.9 kB[22m[39m
+docs:build: + First Load JS shared by all            [37m[1m87 kB[22m[39m
+docs:build:   ├ chunks/649-4444fc6a5e0e2b7b.js       31.5 kB
+docs:build:   ├ chunks/caf67b24-4f856223a3d37246.js  53.6 kB
+docs:build:   └ other shared chunks (total)          1.86 kB
+docs:build: 
+docs:build: 
+docs:build: ○  (Static)  prerendered as static content
+docs:build: 
+docs:build: [?25h
+
+ Tasks:    2 successful, 2 total
+Cached:    2 cached, 2 total
+  Time:    82ms >>> FULL TURBO
+
